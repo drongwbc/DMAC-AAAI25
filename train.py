@@ -116,7 +116,7 @@ def train(args):
             Z, anchor, fuse_Z, A, Q = curModel(
                 X, args.views, anchor_num, neighbor)
 
-            label = KMeans(n_clusters=args.n_clusters, n_init=10,
+            label = KMeans(n_clusters=args.n_clusters, n_init=1,
                            init='k-means++').fit(fuse_Z.cpu().numpy()).labels_
 
             acc, nmi, ari, f1 = eva(Y, label)
