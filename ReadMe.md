@@ -2,7 +2,7 @@
 
 The code for "Deep Multi-view Anchor Clustering" (DMAC).
 
-![pipeline](pipeline.png)
+![pipeline](PipeLine.png)
 
 
 
