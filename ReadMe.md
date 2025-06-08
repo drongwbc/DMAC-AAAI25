@@ -12,12 +12,12 @@ The code for "Deep Multi-view Anchor Clustering" (DMAC).
 Python main.py
 ```
 
-The proposed DMAC is implemented with Python 3.8.1 on Pytorch framework.   
+The proposed DMAC is implemented with Python 3.11.4 on Pytorch framework.
 
-torch==1.13.1  
-numpy==1.23.5  
-scikit_learn==1.2.0  
-scipy==1.9.3  
+torch==2.0.1
+numpy==1.26.0
+scikit-learn==1.3.1
+scipy==1.11.3
 
 ## Citation
 
