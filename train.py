@@ -1,8 +1,6 @@
 import torch
 import utils
 import torch.nn.functional as F
-
-
 import torch.nn as nn
 import warnings
 import math
@@ -103,7 +101,7 @@ def train(args):
         l3 = 0
         for i in range(0, args.views):
             l1 += utils.anchor_selection_loss(Z[i], anchor)
-            l2 += utils.fusion_loss(fuse_Z, A[i])
+            l2 += utils.structure_loss(fuse_Z, A[i])
             for j in range(i + 1, args.views):
                 l3 += utils.mi_loss(Q[i], Q[j])
 
