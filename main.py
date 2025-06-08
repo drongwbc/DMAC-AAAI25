@@ -1,6 +1,5 @@
 import argparse
 from train import train
-import torch
 
 if __name__ == "__main__":
     # Demo for PIE
