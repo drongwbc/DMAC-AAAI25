@@ -15,8 +15,11 @@ Python main.py
 The proposed DMAC is implemented with Python 3.11.4 on Pytorch framework.
 
 torch==2.0.1
+
 numpy==1.26.0
+
 scikit-learn==1.3.1
+
 scipy==1.11.3
 
 ## Citation
